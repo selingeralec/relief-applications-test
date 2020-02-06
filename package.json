@@ -1,0 +1,22 @@
+{
+  "name": "reliefapp",
+  "version": "1.0.0",
+  "description": "app that parses and displays youtube urls - for relief applications",
+  "main": "reliefApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "url",
+    "relief",
+    "applications"
+  ],
+  "author": "alec selinger",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

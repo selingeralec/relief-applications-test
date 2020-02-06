@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(30, 30, 34);
+    color: white;
+}
+
+h3{
+    font-size: 2em;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: rgb(30, 30, 34);
+}
+
+.history-container{
+    width: 20%;
+    background-color: rgb(46, 46, 63);
+}
+
+.video-container{
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
+}
+
+.video-input{
+    width: 100%;
+    padding: 14px;
+    font-size: 1.3em;
+}
+
+.video-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 90%;
+}
+
+#video-player{
+    margin: auto;
+    display: inline-block;
+}
+
+.bookmark-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 15%;
+    background-color: rgb(46, 46, 63);
+}
+
+.hide-bookmarks>li{
+    display: none;
+}
+
+li{
+    list-style: none;
+    padding: 10px;  
+    font-size: 14px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+button{
+    font-size: 16px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(30, 30, 34);
+    border: 3px solid rgb(82, 82, 114);
+    border-radius: 3px;
+    margin: 5px;
+    color: white;
+    display: block;
+    transition: ease-in 0.1s;
+}
+
+button:hover{
+    border: 3px solid white;
+    border-radius: 3px;
+    transition: ease-in 0.1s;
+    cursor: pointer;
+}
+
+.fa-eye-slash{
+    color: rgb(91, 91, 139);
+}

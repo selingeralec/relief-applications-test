@@ -92,12 +92,6 @@ document.addEventListener("click", (event)=>{
     }
 });
 
-/*YT TEST LINKS
-https://www.youtube.com/watch?v=3GiJiMhuY4k
-https://www.youtube.com/watch?v=jdCoausXiGU
-https://www.youtube.com/watch?v=ZVq7CyhfRA8
-*/
-
 function storageCount(){
     var keyArray = [];
     for(var i=0; i<localStorage.length; i++) {
